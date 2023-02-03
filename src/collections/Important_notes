@@ -1,0 +1,34 @@
+Framework collection - collection of interfaces and classes that helps in organizing, sorting and doing various functions on data effeciently
+There are classes like mentioned below that implements particular interfaces
+Collections come under java.util package
+inorder to use these classes as usual create an object of it and because it is not in the same package java.util.classname should be imported
+Interface				Class
+List					ArrayList 
+						(type casting can be done but it works even it is not type casted)
+						(Arraylist does not have a fixed size as in arrays)
+						(can accept duplicate values)
+						(can add or remove from any index)
+						
+						LinkedList
+						Vector
+						(Use enumerators to traverse)
+						
+Set						HashSet	
+						(can NOT accept duplicate values)
+						(data does not store in sequential order)
+						(can not perform actions based on index)
+						
+						LinkedHashSet	
+						TreeSet
+						
+Map						HashMap
+						(store in a key value pair)
+						
+						LinkedHashMap	
+						TreeMap
+						
+Hashmap 											HashTable
+Are not synchronized and not thread					Are synchronized and thread safe
+(concurrent threads have access)					(multiple threads can not access simultaneously)
+One null key and many null values are accepted  	No null keys no null values
+Use Iterator to traverse							Use enumerators to traverse
